@@ -13,7 +13,7 @@ public class Car extends Vehicle {
     }
 
     public void start(){
-        System.out.println("The car is starting");
+        System.out.printf("The %s %s is starting\n", this.getColor(), this.getModel());
     }
 
     public void setModel(String model) {
@@ -22,6 +22,10 @@ public class Car extends Vehicle {
 
     public String accelerate(){
         return "The "+this.getColor()+" "+this.getModel()+" is accelerating";
+    }
+
+    public String emisionTest(){
+        return "The "+this.getColor()+" "+this.getModel()+" has stopped to have its emissions checked.";
     }
 
     public String stop(){
