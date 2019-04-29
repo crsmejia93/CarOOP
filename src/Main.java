@@ -8,9 +8,7 @@ public class Main {
         print(c1.accelerate());
         c1.setSpeed(60);
         print(c1.stop());
-
         System.out.println();
-
         Car c2 = new Car();
         c2.setColor("Gray");
         c2.setModel("Civic");
