@@ -17,7 +17,8 @@ public class Main {
             }
             if(!carInfo.equalsIgnoreCase("q")){
                 carInfoArr = carInfo.split(", ");
-                carList.add( new Car(carInfoArr[0], carInfoArr[1],carInfoArr[2],carInfoArr[3]));
+                                    //Year          Make        Model           Color
+                carList.add( new Car(carInfoArr[0],carInfoArr[1],carInfoArr[2],carInfoArr[3]));
             }
         }
         int i=1;

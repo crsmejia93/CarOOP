@@ -20,12 +20,6 @@ public class Car extends Vehicle {
         this.year = year;
     }
 
-    @Override
-    public void setSpeed(int speed) {
-        super.setSpeed(speed);
-        System.out.println("The Speed is now "+speed+" mph");
-    }
-
     public String getMake() {
         return make;
     }
